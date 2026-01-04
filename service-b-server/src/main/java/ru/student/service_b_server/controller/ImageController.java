@@ -43,7 +43,7 @@ public class ImageController {
         exif.put("width", "4000");
         exif.put("height", "3000");
 
-        // Кусок г..
+        // Кусок антиоптимизации
         String serialized = "";
         for (int i = 0; i < 5; i++) {
             serialized = exif.toString();
